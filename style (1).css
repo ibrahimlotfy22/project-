@@ -1,0 +1,79 @@
+*{-webkit-box-sizing: border-box}
+
+body{
+  background-color: rgba(200, 200, 200, 20%) ;
+}
+form{
+  width: 300px;
+  height: 380px;
+  border: .8px solid  darkblue ;
+  border-radius: 15px;
+  margin: 50px auto;
+  padding: 30px ;
+  background: floralwhite;
+  box-shadow: 0 5px 10px rgba(1, 1, 1 ,30%);
+  transition: .7s ;
+ 
+  
+  
+}
+form:hover{
+  
+}
+h1{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: mediumvioletred;
+}
+.input ,[type="password" ],[ type="text"]{
+ width: 200px;
+ height: 30px;
+ margin-bottom: 30px;
+ margin-left: 20px;
+ border: 1.5px solid dodgerblue;
+ border-radius: 10px;
+ color: black;
+ background-color: skyblue;
+ font-size: 17px;
+}
+.for{
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  
+}
+input[type="submit"]{
+  text-align: center;
+  border-radius: 10px;
+  width: 130px;
+  height: 35px;
+  background-color: deepskyblue;
+  border: 1px solid mediumblue;
+  margin-left: 65px;
+  font-size: 17px;
+  font-weight: bold;
+  
+}
+ .in{
+  height: 40px;
+  width: 230px;
+  background: skyblue;
+  border-radius: 13px;
+   text-decoration: none;
+   transition: .7s
+}
+.sign{
+  font-size: 30px;
+  margin-left: 63px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  
+}
+.in:hover{
+  transform: scale(1.3)
+}
+
